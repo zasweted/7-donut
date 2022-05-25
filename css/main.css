@@ -3,11 +3,8 @@ body{
     display: inline-block;
 }
 header > div {
-    margin-left: 15%;
     margin-top: 5%;
-}
-nav {
-    margin-left: 40%;
+    margin-left: 15%;
 }
 nav > a {
     font-size: 20px;
@@ -59,12 +56,6 @@ p {
     font-size: 15px;
     color: #2A3033;
     font-family: cursive;
-}
-nav > a {
-    font-size: 15px;
-    color: #2A3033;
-    font-family: cursive;
-    text-decoration: none;
 }
 a > img {
     width: 15%;
