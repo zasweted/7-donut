@@ -2,26 +2,23 @@ body {
     background-color: #ffffff;
 }
 
-header,
-main,
-footer {
+.container {
     display: inline-block;
     width: 800px;
     margin-left: calc(50% - 400px);
-    margin-right: calc(50% - 400px);
     margin-bottom: 30px;
 }
 
-img {
+.logo {
     float: left;
 }
 
-header > nav {
+.menu-right {
     float: right;
     margin-top: 20px;
 }
 
-header > nav > a {
+.link {
     float: left;
     margin-left: 50px;
     font-size: 20px;
@@ -31,11 +28,15 @@ header > nav > a {
     font-family: cursive;
 }
 
-nav > a:first-child {
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:first-child {
     margin-left: 0;
 }
 
-main div {
+.left-column {
     margin-top: 25px;
     width: 40%;
     float: left;
@@ -54,7 +55,7 @@ main p {
     color: #2A3033;
 }
 
-main a {
+.btn {
     display: inline-block;
     text-decoration: none;
     padding: 10px;
@@ -66,27 +67,67 @@ main a {
     
 }
 
-main img {
+.btn:hover {
+    background-color: #FC9294;
+    color: white;
+    border: solid 2px #2A3033;
+}
+
+main > img {
     margin-top: 30px;
     width: 45%;
     float: right;
+    transition: all 2s;
+}
+
+main > img:hover {
+    transform: rotate(360deg);
 }
 
 footer p {
     margin: 0;
-    display: inline-block;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 20px;
     color: #2A3033;
     font-family: cursive;
 
 }
 
-div nav a {
-    width: 40%;
+.menu-left {
+    text-decoration: none;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    color: #2A3033;
+    font-family: cursive;
+}
+
+.botom-link{
+    float: left;
+    margin-left: 0;
     font-size: 12px;
     line-height: 20px;
     text-decoration: none;
     color: #2A3033;
     font-family: cursive;
+}
+
+.botom-link:hover {
+    text-decoration: underline;
+}
+
+.social-link-menu {
+    float: right;
+}
+
+.social-link {
+    color: #2A3033;
+    margin-left: 8px;
+    font-size: 25px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: #C97889;
 }
