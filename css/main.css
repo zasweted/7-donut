@@ -22,10 +22,10 @@ main > img:hover {
     transform: rotate(360deg);
 }
 
-.botom-link:hover {
+.link:hover {
     text-decoration: underline;
 }
 
-.social-link:hover {
-    color: #C97889;
+.link:first-child {
+    margin-left: 0;
 }

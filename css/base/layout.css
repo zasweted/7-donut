@@ -17,14 +17,6 @@
     font-family: cursive;
 }
 
-.link:hover {
-    text-decoration: underline;
-}
-
-.link:first-child {
-    margin-left: 0;
-}
-
 .left-column {
     margin-top: 25px;
     width: 40%;
@@ -38,18 +30,6 @@ footer p {
     color: #2A3033;
     font-family: cursive;
 
-}
-
-.social-link-menu {
-    float: right;
-}
-
-.social-link {
-    color: #2A3033;
-    margin-left: 8px;
-    font-size: 25px;
-    line-height: 20px;
-    text-decoration: none;
 }
 
 .menu-left {
@@ -69,4 +49,24 @@ footer p {
     text-decoration: none;
     color: #2A3033;
     font-family: cursive;
+}
+
+.botom-link:hover {
+    text-decoration: underline;
+}
+
+.social-link-menu {
+    float: right;
+}
+
+.social-link {
+    color: #2A3033;
+    margin-left: 8px;
+    font-size: 25px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: #C97889;
 }
