@@ -1,47 +1,3 @@
-body {
-    background-color: #ffffff;
-}
-
-.container {
-    display: inline-block;
-    width: 800px;
-    margin-left: calc(50% - 400px);
-    margin-bottom: 30px;
-}
-
-.logo {
-    float: left;
-}
-
-.menu-right {
-    float: right;
-    margin-top: 20px;
-}
-
-.link {
-    float: left;
-    margin-left: 50px;
-    font-size: 20px;
-    line-height: 20px;
-    text-decoration: none;
-    color: #2A3033;
-    font-family: cursive;
-}
-
-.link:hover {
-    text-decoration: underline;
-}
-
-.link:first-child {
-    margin-left: 0;
-}
-
-.left-column {
-    margin-top: 25px;
-    width: 40%;
-    float: left;
-}
-
 main h1 {
     font-size: 60px;
     font-weight: normal;
@@ -66,48 +22,8 @@ main > img:hover {
     transform: rotate(360deg);
 }
 
-footer p {
-    margin: 0;
-    font-size: 15px;
-    line-height: 20px;
-    color: #2A3033;
-    font-family: cursive;
-
-}
-
-.menu-left {
-    text-decoration: none;
-    float: left;
-    font-size: 12px;
-    line-height: 20px;
-    color: #2A3033;
-    font-family: cursive;
-}
-
-.botom-link{
-    float: left;
-    margin-left: 0;
-    font-size: 12px;
-    line-height: 20px;
-    text-decoration: none;
-    color: #2A3033;
-    font-family: cursive;
-}
-
 .botom-link:hover {
     text-decoration: underline;
-}
-
-.social-link-menu {
-    float: right;
-}
-
-.social-link {
-    color: #2A3033;
-    margin-left: 8px;
-    font-size: 25px;
-    line-height: 20px;
-    text-decoration: none;
 }
 
 .social-link:hover {
