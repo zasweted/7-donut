@@ -1,19 +1,26 @@
+.left-column {
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 40%;
+    float: left;
+}
+
 main h1 {
     font-size: 60px;
     font-weight: normal;
-    color: #2A3033;
+    color: var(--font-color);
 }
 
 main p {
     font-size: 23px;
     font-family: cursive;
     font-weight: light;
-    color: #2A3033;
+    color:var(--font-color);
 }
 
-main > img {
+main > .img {
     margin-top: 30px;
-    width: 45%;
+    width: 40%;
     float: right;
     transition: all 2s;
 }
