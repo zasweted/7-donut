@@ -3,6 +3,11 @@
     padding: 60px 0;
 }
 
+.container > .logo {
+    height: 40px;
+    margin-left: 30px;
+}
+
 .container > .row {
     width: 1000px;
     margin: 0 calc(50% - 500px);
