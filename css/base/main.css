@@ -1,5 +1,4 @@
-.container > .left-column {
-    display: inline-block;
+/* .container > .left-column {
     margin-top: 25px;
     width: 40%;
     padding-right: 0;
@@ -28,4 +27,5 @@ main p {
 
 main > img:hover {
     transform: rotate(360deg);
-}
+} */
+

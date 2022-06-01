@@ -1,8 +1,41 @@
 @import "../base/base.css";
 @import "../base/layout.css";
+@import "../main.css";
+
+@import "../3rd-party/font-awesome.min.css";
+
 @import "../base/header.css";
 @import "../base/main.css";
 @import "../base/footer.css";
-@import "../3rd-party/font-awesome.min.css";
+
+
 @import "../components/button.css";
-@import "../main.css";
+
+/* LOGO-NAVIG-START */
+.top-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left {
+    width: 30%;
+}
+
+.right {
+    display: flex;
+    gap: 15px;
+    line-height: 60px;
+}
+.right > a {
+    
+    font-size: 20px;
+    text-decoration: none;
+    color: #2A3033;
+    font-family: cursive;
+}
+
+.right > a:hover {
+    text-decoration: underline;
+}
+
+/* LOGO-NAVIG-END */
