@@ -1,0 +1,22 @@
+.logo {
+    float: left;
+}
+
+.top-menu {
+    float: right;
+    width: 100%;
+}
+
+.top-link {
+    float: left;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 65px;
+    text-decoration: none;
+    color: #2A3033;
+    font-family: cursive;
+}
+
+.top-link:first-child {
+    margin-left: 28%;
+}
