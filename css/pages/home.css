@@ -4,11 +4,6 @@
 
 @import "../3rd-party/font-awesome.min.css";
 
-@import "../base/header.css";
-@import "../base/main.css";
-@import "../base/footer.css";
-
-
 @import "../components/button.css";
 
 /* LOGO-NAVIG-START */
@@ -30,7 +25,7 @@
     
     font-size: 20px;
     text-decoration: none;
-    color: #2A3033;
+    color: var(--font-color);
     font-family: cursive;
 }
 
@@ -39,3 +34,52 @@
 }
 
 /* LOGO-NAVIG-END */
+/* MIDDLE-SECTION-START */
+.middle-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.middle-left {
+    width: 40%;
+}
+
+.middle-right {
+    width: 50%;
+}
+
+.section-title {
+    font-size: 55px;
+    font-weight: normal;
+    color: var(--font-color);
+}
+
+.section-description {
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: light;
+    color: var(--font-color);
+}
+
+.section-img {
+    width: 80%;
+    transition: all 2s;
+    justify-content: flex-end;
+    /* paziuret video apie img positioning */
+}
+
+.section-img:hover {
+    transform: rotate(360deg);
+}
+/* MIDDLE-SECTION-END */
+
+/* FOOTER-SECION-START */
+
+/* FOOTER-SECTION-END */
