@@ -1,12 +1,12 @@
 .btn {
+    width: 150px;
+    height: 45px;
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 30px;
     color: #C97889;
     border: solid 2px #C97889;
     text-align: center;
-    justify-content: center;
-    
 }
 
 .btn:hover {

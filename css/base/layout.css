@@ -27,7 +27,7 @@
     } 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 720px) {
     .container > .row {
         width: 400px;
         margin: 0 calc(50% - 200px);
