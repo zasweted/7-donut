@@ -1,0 +1,29 @@
+.botom-link {
+    float: left;
+    margin-left: 0;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #2A3033;
+    font-family: cursive;
+}
+
+.botom-link:hover {
+    text-decoration: underline;
+}
+
+.social-link-menu {
+    float: right;
+}
+
+.social-link {
+    color: #2A3033;
+    margin-left: 8px;
+    font-size: 25px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: #C97889;
+}

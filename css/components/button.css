@@ -1,17 +1,13 @@
 .btn {
-    display: inline-block;
     text-decoration: none;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px 30px;
     border-radius: 30px;
     color: #C97889;
-    border: solid 2px #C97889;
-    
+    border: solid 2.5px #C97889;
 }
 
 .btn:hover {
     background-color: #FC9294;
     color: white;
-    border: solid 2px #2A3033;
+    border: solid 2.5px var(--font-color);
 }
